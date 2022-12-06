@@ -6,9 +6,9 @@ local settings_tbl = {
     ESP_Enabled = true,
     ESP_TeamCheck = false,
     Chams = true,
-    Chams_Color = Color3.fromRGB(255,255,255),
+    Chams_Color = Color3.fromRGB(250,0,0),
     Chams_Transparency = 0.1,
-    Chams_Glow_Color = Color3.fromRGB(255,250,255)
+    Chams_Glow_Color = Color3.fromRGB(0,0,250)
 }
 
 function destroy_chams(char)
