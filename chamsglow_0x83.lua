@@ -8,7 +8,7 @@ local settings_tbl = {
     Chams = true,
     Chams_Color = Color3.fromRGB(255,255,255),
     Chams_Transparency = 0.1,
-    Chams_Glow_Color = Color3.fromRGB(255,255,255)
+    Chams_Glow_Color = Color3.fromRGB(255,250,255)
 }
 
 function destroy_chams(char)
