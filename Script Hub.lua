@@ -53,3 +53,6 @@ local ArsenalSection = Arsenal:NewSection("Arsenal")
  ArsenalSection:NewButton("Line Esp", "Line Esp", function()
        loadstring(game:HttpGet('https://raw.githubusercontent.com/justanormalguy12/scripthub/main/Line%20Esp.lua'))()
     end)
+ArsenalSection:NewButton("Unlock all", "Unlock All", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Innocentallity/Scripts/main/Innohub"))();
+    end)
