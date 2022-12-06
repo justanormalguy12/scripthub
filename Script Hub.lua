@@ -49,4 +49,7 @@ local ArsenalSection = Arsenal:NewSection("Arsenal")
     
     ArsenalSection:NewButton("Chams/esp", "Chams", function()
        loadstring(game:HttpGet('https://raw.githubusercontent.com/justanormalguy12/scripthub/main/chamsglow_0x83.lua'))()
-end)
+    end)
+ ArsenalSection:NewButton("Chams/esp", "Chams", function()
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/justanormalguy12/scripthub/main/Line%20Esp.lua'))()
+    end)
