@@ -62,15 +62,15 @@ local ArsenalSection = Arsenal:NewSection("Arsenal")
     loadstring(game:HttpGet("https://pastebin.com/raw/bQtfYNgh"))()
 end)
 
-local Settings = Window:NewTab("Settings")
-local SettingsSection = Settings:NewSection("Settings")
+local Setting = Window:NewTab("Setting")
+local SettingSection = Settings:NewSection("Setting")
 
 for theme, color in pairs(themes) do
-    	SettingsSection:NewColorPicker(theme, "Change your "..theme, color, function(color3)
+    	SettingSection:NewColorPicker(theme, "Change your "..theme, color, function(color3)
         Library:ChangeColor(theme, color3)
     end)
 end
 
-	SettingsSection:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.F, function()
+SettingSection:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.F, function()
 	Library:ToggleUI()
 end)
