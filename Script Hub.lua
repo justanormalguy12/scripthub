@@ -61,16 +61,3 @@ local ArsenalSection = Arsenal:NewSection("Arsenal")
     ArsenalSection:NewButton("Silent Aim", "ButtonInfo", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/bQtfYNgh"))()
 end)
-
-local Setting = Window:NewTab("Setting")
-local SettingSection = Settings:NewSection("Setting")
-
-for theme, color in pairs(themes) do
-    	SettingSection:NewColorPicker(theme, "Change your "..theme, color, function(color3)
-        Library:ChangeColor(theme, color3)
-    end)
-end
-
-SettingSection:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.F, function()
-	Library:ToggleUI()
-end)
