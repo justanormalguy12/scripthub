@@ -66,11 +66,11 @@ local Settings = Window:NewTab("Settings")
 local SettingsSection = Settings:NewSection("Settings")
 
 for theme, color in pairs(themes) do
-    SettingsSection:NewColorPicker(theme, "Change your "..theme, color, function(color3)
+    	SettingsSection:NewColorPicker(theme, "Change your "..theme, color, function(color3)
         Library:ChangeColor(theme, color3)
     end)
 end
 
-SettingsSection:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.F, function()
+	SettingsSection:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.F, function()
 	Library:ToggleUI()
 end)
