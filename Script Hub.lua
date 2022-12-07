@@ -56,3 +56,6 @@ local ArsenalSection = Arsenal:NewSection("Arsenal")
 ArsenalSection:NewButton("Unlock all", "Unlock All", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Innocentallity/Scripts/main/Innohub"))();
     end)
+    ArsenalSection:NewButton("Infinite jump", "Unlimited Jump", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/bruvzz/oldinfinitejump/main/script"))()
+    end)
