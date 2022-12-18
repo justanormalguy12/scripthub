@@ -54,8 +54,8 @@ local ArsenalSection = Arsenal:NewSection("Arsenal")
        loadstring(game:HttpGet('https://raw.githubusercontent.com/justanormalguy12/scripthub/main/Line%20Esp.lua'))()
     end)
 
-    ArsenalSection:NewButton("Infinite jump", "Unlimited Jump", function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/bruvzz/oldinfinitejump/main/script"))()
+    ArsenalSection:NewButton("op script (dont use rainbow gun )", "op", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/mopsfl/rbxmopshub/main/loader.lua"))()
     end)
 
     ArsenalSection:NewButton("Silent Aim", "ButtonInfo", function()
