@@ -65,6 +65,14 @@ end)
 local Bedwars = Window:NewTab("Bedwars")
 local BedwarsSection = Bedwars:NewSection("Bedwars")
 
-   BedwarsSection:NewButton("Silent Aim", "ButtonInfo", function()
+   BedwarsSection:NewButton("Vape V4", "ButtonInfo", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/Zs3WMXpM"))()
+end)
+
+
+local BigPaintball = Window:NewTab("BigPaintball")
+local BigPaintballSection = BigPaintball:NewSection("BigPaintball")
+
+BigPaintballSection:NewButton("op script", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
 end)
