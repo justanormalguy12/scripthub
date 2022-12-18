@@ -61,3 +61,10 @@ local ArsenalSection = Arsenal:NewSection("Arsenal")
     ArsenalSection:NewButton("Silent Aim", "ButtonInfo", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/bQtfYNgh"))()
 end)
+
+local Bedwars = Window:NewTab("Bedwars")
+local BedwarsSection = Bedwars:NewSection("Bedwars")
+
+   BedwarsSection:NewButton("Silent Aim", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/Zs3WMXpM"))()
+end)
